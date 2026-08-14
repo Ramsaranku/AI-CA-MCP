@@ -1,0 +1,9 @@
+node_modules/
+dist/
+data/
+!data/player_meta.csv
+*.duckdb
+*.duckdb.wal
+.DS_Store
+.claude/
+.snapshots/
