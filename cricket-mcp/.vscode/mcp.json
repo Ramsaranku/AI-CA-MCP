@@ -1,14 +1,14 @@
 {
   "mcpServers": {
     "cricket-mcp": {
-      "type": "stdio",
-      "command": "npx",
+      "command": "npx.cmd",
       "args": [
         "-y",
         "tsx",
-        "C:/Users/saran/OneDrive/Desktop/projects/cricket-mcp/src/index.ts",
+        "src/index.ts",
         "serve"
-      ]
+      ],
+      "cwd": "C:/Users/saran/OneDrive/Desktop/projects/AI-CA-MCP/cricket-mcp/cricket-mcp"
     }
   }
 }
