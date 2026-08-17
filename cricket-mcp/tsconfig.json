@@ -4,7 +4,7 @@
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "outDir": "./dist",
-    "rootDir": "./src",
+    "rootDir": "./",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -12,6 +12,18 @@
     "declaration": true,
     "sourceMap": true
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "dist", "data"]
+  "include": ["**/*.ts"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "data",
+    "analyze-aus-pace-tactics.ts",
+    "check-aus-ban-tests.ts",
+    "check-match-status.ts",
+    "predict-batsmen.ts",
+    "predict-spain-finland.ts",
+    "predict-tomorrow.ts",
+    "query-kohli-bumrah.ts",
+    "squad-prediction.ts"
+  ]
 }
