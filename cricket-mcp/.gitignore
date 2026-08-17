@@ -7,3 +7,8 @@ data/
 .DS_Store
 .claude/
 .snapshots/
+
+.env
+.env.local
+*.env
+**/.env*
