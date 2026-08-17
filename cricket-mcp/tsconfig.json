@@ -4,7 +4,6 @@
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "outDir": "./dist",
-    "rootDir": "./",
     "strict": false,
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -14,18 +13,19 @@
   },
   "include": [
     "index.ts",
-    "backends/**/*",
-    "db/**/*",
-    "evals/**/*",
-    "ingest/**/*",
-    "prompts/**/*",
-    "queries/**/*",
-    "tools/**/*",
-    "types/**/*"
+    "backends/**/*.ts",
+    "db/**/*.ts",
+    "ingest/**/*.ts",
+    "prompts/**/*.ts",
+    "queries/**/*.ts",
+    "tools/**/*.ts",
+    "types/**/*.ts"
   ],
   "exclude": [
     "node_modules",
     "dist",
-    "data"
+    "data",
+    "evals",
+    "*.ts"
   ]
 }
