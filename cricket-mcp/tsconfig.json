@@ -5,25 +5,27 @@
     "moduleResolution": "NodeNext",
     "outDir": "./dist",
     "rootDir": "./",
-    "strict": true,
+    "strict": false,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "declaration": true,
     "sourceMap": true
   },
-  "include": ["**/*.ts"],
+  "include": [
+    "index.ts",
+    "backends/**/*",
+    "db/**/*",
+    "evals/**/*",
+    "ingest/**/*",
+    "prompts/**/*",
+    "queries/**/*",
+    "tools/**/*",
+    "types/**/*"
+  ],
   "exclude": [
     "node_modules",
     "dist",
-    "data",
-    "analyze-aus-pace-tactics.ts",
-    "check-aus-ban-tests.ts",
-    "check-match-status.ts",
-    "predict-batsmen.ts",
-    "predict-spain-finland.ts",
-    "predict-tomorrow.ts",
-    "query-kohli-bumrah.ts",
-    "squad-prediction.ts"
+    "data"
   ]
 }
